@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Details | FFBA</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="ffba-new.png" type="image/x-icon">
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="ffba-new.png" alt="FFBA Logo" width="100">
+    </div>
+    <h1 class="title">Player Details</h1>
+
+    <div id="player-details">
+      <!-- Player details will be dynamically populated here -->
+    </div>
+
+    <div id="fees-summary" class="hidden">
+      <!-- Full fees summary will be displayed here -->
+    </div>
+
+    <button id="make-payment" class="btn" title="Click to initiate payment process">Pay Now</button>
+
+    <div id="payment-options" class="hidden">
+      <h3>Select Payment Method</h3>
+      <div class="payment-option-tabs">
+        <button id="pay-via-upi" class="payment-button">Pay via UPI ID</button>
+        <button id="pay-via-qr" class="payment-button">Pay via QR Code</button>
+      </div>
+    </div>
+    
+
+    <div id="upi-id-section" class="hidden">
+      <p><strong>UPI ID:</strong> ramangoswami6546@oksbi</p>
+      <p>Use this UPI ID in your payment app to complete the transaction.</p>
+    </div>
+
+    <div id="qr-code-section" class="hidden">
+      <p>Scan the QR code below to pay your fees:</p>
+      <div id="qr-code" class="qr-container">
+        <img src="scan.jpg">
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="payment-done" class="btn" style="background-color: blue;" title="Confirm payment completion">Payment Done</button>
+      <button id="get-summary" class="btn sum" style="background-color: red;" title="View full fees summary">Get Full Fees Summary</button>
+      <a href="index.html" style="width: 80%;" class="btn">Back to Player List</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 FFBA. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Add QR Code Library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="details.js"></script>
+  
+</body>
+</html>
