@@ -3,7 +3,7 @@
     name: "Kashika",
     admissionNumber: "PF0125",
     admissionDate: "2023-08-07",
-    feesStatus: "pending",
+    feesStatus: "paid",
     dueDate: "2025-01-07",
     feesHistory: [
       { month: "Aug", year: 2024, status: "paid" },
@@ -11,6 +11,7 @@
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
+     { month: "Jan", year: 2025, status: "paid" },
     ],
   },
   {
@@ -62,7 +63,7 @@
     name: "Chinmay",
     admissionNumber: "PF0525",
     admissionDate: "2024-10-07",
-    feesStatus: "pending",
+    feesStatus: "paid",
     dueDate: "2025-01-07",
     feesHistory: [
       { month: "Aug", year: 2024, status: "paid" },
@@ -70,6 +71,7 @@
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
+     { month: "Jan", year: 2025, status: "paid" },
     ],
   },
 
