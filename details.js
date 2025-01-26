@@ -91,7 +91,7 @@
     ],
   },
    {
-    name: "Pihu",
+    name: "Peehu",
     admissionNumber: "PF0725",
     admissionDate: "2025-01-14",
     feesStatus: "paid",
