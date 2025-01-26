@@ -11,7 +11,7 @@
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
-     { month: "Jan", year: 2025, status: "paid" },
+      { month: "Jan", year: 2025, status: "paid" },
     ],
   },
   {
@@ -48,14 +48,15 @@
     name: "Blessy",
     admissionNumber: "PF0425",
     admissionDate: "2023-08-07",
-    feesStatus: "pending",
+    feesStatus: "paid",
     dueDate: "2025-01-07",
     feesHistory: [
       { month: "Aug", year: 2024, status: "paid" },
       { month: "Sep", year: 2024, status: "paid" },
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
+      { month: "Dec", year: 2024, status: "paid" },
+      { month: "Jan", year: 2025, status: "paid" },
     ],
   },
 
@@ -71,7 +72,7 @@
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
-     { month: "Jan", year: 2025, status: "paid" },
+      { month: "Jan", year: 2025, status: "paid" },
     ],
   },
 
@@ -89,8 +90,23 @@
       { month: "Dec", year: 2024, status: "pending" },
     ],
   },
+   {
+    name: "Pihu",
+    admissionNumber: "PF0725",
+    admissionDate: "2025-01-14",
+    feesStatus: "paid",
+    dueDate: "2025-01-14",
+    feesHistory: [
+      { month: "Aug", year: 2024, status: "paid" },
+      { month: "Sep", year: 2024, status: "paid" },
+      { month: "Oct", year: 2024, status: "paid" },
+      { month: "Nov", year: 2024, status: "paid" },
+      { month: "Dec", year: 2024, status: "paid" },
+      { month: "Jan", year: 2025, status: "paid" },
+    ],
+  },
   
-];  
+];   
 
 
 
