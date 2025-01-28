@@ -87,8 +87,8 @@
       { month: "Sep", year: 2024, status: "paid" },
       { month: "Oct", year: 2024, status: "paid" },
       { month: "Nov", year: 2024, status: "paid" },
-      { month: "Dec", year: 2024, status: "pending" },
-      { month: "Jan", year: 2025, status: "pending" },
+      { month: "Dec", year: 2024, status: "paid" },
+      { month: "Jan", year: 2025, status: "paid" },
     ],
   },
    {
