@@ -18,7 +18,7 @@
     name: "Vihaan",
     admissionNumber: "PF0225",
     admissionDate: "2024-01-01",
-    feesStatus: "pending",
+    feesStatus: "paid",
     dueDate: "2025-02-01",
     feesHistory: [
       { month: "Aug", year: 2024, status: "paid" },
@@ -34,7 +34,7 @@
     name: "Aryan",
     admissionNumber: "PF0325",
     admissionDate: "2024-01-01",
-    feesStatus: "pending",
+    feesStatus: "paid",
     dueDate: "2025-02-01",
     feesHistory: [
       { month: "Aug", year: 2024, status: "paid" },
