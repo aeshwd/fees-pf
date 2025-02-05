@@ -27,6 +27,7 @@
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
      { month: "Jan", year: 2025, status: "paid" },
+      { month: "Feb", year: 2025, status: "paid" },
     ],
   },
   {
@@ -42,6 +43,7 @@
       { month: "Nov", year: 2024, status: "paid" },
       { month: "Dec", year: 2024, status: "paid" },
      { month: "Jan", year: 2025, status: "paid" },
+      { month: "Feb", year: 2025, status: "paid" },
     ],
   },
   {
