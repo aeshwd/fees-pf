@@ -1,89 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FFBA (PF) Fees Status | FFBA</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="ffba-new.png" type="image/x-icon">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcement - Skyline Syntax</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
- 
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        .alert-icon {
+            font-size: 50px;
+            color: #ff4c4c;
+            animation: shake 1s infinite alternate;
+        }
+        h1 {
+            font-size: 28px;
+            color: #ff4c4c;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .contact span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes shake {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(5deg); }
+        }
+    </style>
 </head>
 <body>
 
-  <div class="breadcrumbs">
-    <a href="#">Home</a> &gt;
-    <a href="#">FFBA Pofessional Fees Status</a>
-  </div>
-  <div class="container">
-    <div class="image" style="text-align: center;">
-      <img src="ffba-new.png" width="100">
-    </div>
-    <h1 class="title">FFBA Professional Fees Status (Feb 2025)</h1>
-
-   
-
-    
-  
-
-    <div class="filter-container" style="text-align: center; margin-bottom: 20px;">
-      <input type="text" id="searchBar" placeholder="Search by name..." oninput="searchPlayers()">
-      
+    <div class="container">
+        <div class="alert-icon">⚠️</div>
+        <h1>Skyline Syntax Disassociation from FFBA</h1>
+        <p>We would like to inform our clients and associates that <b>Skyline Syntax Software Company</b> has officially parted ways with <b>Fast N Furious Badminton Academy (FFBA)</b>. Due to unresolved payment issues, we will no longer be developing or managing any future websites for FFBA.</p>
+        <p>We appreciate the collaboration we had in the past and wish them success in their future endeavors.</p>
+        <div class="contact">
+          📞 India: <span> +91 6280144157</span> <br>
+            📞 USA: <span>+1 2679778691</span>
+        </div>
     </div>
 
-	   <div class="done" style="text-align: center; margin-top: 20px; margin-bottom: 20px; color: red; font-weight: 800"> 
-		   <h3> The fees of Jan 2025 is done of all players. </h3> </div>
-
-    <div id="player-list" class="player-list">
-      <!-- Player cards will be dynamically generated here -->
-    </div>
-
-
-    <!-- Popup Modal -->
-	<div class="popup-modal" id="popupModal">
-		<div class="popup-content">
-		  <span class="close-btn" id="closeBtn">&times;</span>
-		  
-		  <h2 style="font-size: 2rem; color: red; font-weight: 800;">ALERT</h2>
-		  <p style="line-height: 1.5; font-size: 1.4rem;">Players are given a grace period of two days. For example, if the due date is January 1 and payment is made on January 2 or 3, no late fees will be charged. However, from January 4 onwards, late fees of Rs. 300 per day will apply.</p>
-		
-		</div>
-	  </div>
-
-
-  <footer class="footer" style="text-align: center; margin-top: 20px;">
-    <p>&copy; 2025 FFBA. All Rights Reserved.</p>
-  </footer>
-
-  <button class="back-to-top" onclick="scrollToTop()">↑</button>
-
-  <script src="script.js"></script>
-  
-
-  <script>
-    // Scroll to top functionality
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    // Initial render
-    document.addEventListener("DOMContentLoaded", renderGraph);
-
-    // Show/hide back-to-top button based on scroll position
-    window.addEventListener('scroll', () => {
-      const backToTopButton = document.querySelector('.back-to-top');
-      if (window.scrollY > 300) {
-        backToTopButton.style.display = 'block';
-      } else {
-        backToTopButton.style.display = 'none';
-      }
-    });
-  </script>
-
-
-
-  
-   
 </body>
 </html>
